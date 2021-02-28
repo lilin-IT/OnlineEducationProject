@@ -14,5 +14,5 @@ aliyun:
   oss:
     endpoint: oss-cn-beijing.aliyuncs.com
     keyid: LTAI4G2ge2RvaS94QYDvRHQR
-    keysecret: wKAcPxWfwqVl5N7nQlWFf1gpDBoATo
+    keysecret: wKAcPxWfwqVl5N7nQlWFf1gpDBoATo20210228
     bucketname: lilin-file-20210119

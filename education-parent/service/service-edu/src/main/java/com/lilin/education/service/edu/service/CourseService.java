@@ -2,6 +2,7 @@ package com.lilin.education.service.edu.service;
 
 import com.lilin.education.service.edu.entity.Course;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lilin.education.service.edu.entity.form.CourseInfoForm;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface CourseService extends IService<Course> {
 
+    String saveCourseInfo(CourseInfoForm courseInfoForm);
 }
