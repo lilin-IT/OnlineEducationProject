@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>service-base</module>
-        <module>common_util</module>
+        <module>common-util</module>
     </modules>
     <dependencies>
         <dependency>

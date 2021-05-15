@@ -21,6 +21,7 @@ public class BaseEntity implements Serializable {
     @TableId(value = "id", type = IdType.ASSIGN_ID)
     private String id;
 
+
     @ApiModelProperty(value = "创建时间")
     @TableField(fill = FieldFill.INSERT)
     private Date gmtCreate;

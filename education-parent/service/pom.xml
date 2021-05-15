@@ -13,6 +13,7 @@
     <modules>
         <module>service-edu</module>
         <module>service-oss</module>
+        <module>service-voded</module>
     </modules>
     <dependencies>
         <dependency>

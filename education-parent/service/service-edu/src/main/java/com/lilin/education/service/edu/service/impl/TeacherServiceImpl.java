@@ -4,9 +4,11 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lilin.education.common.base.result.R;
+import com.lilin.education.service.edu.entity.Course;
 import com.lilin.education.service.edu.entity.Teacher;
 import com.lilin.education.service.edu.entity.vo.TeacherQueryVo;
 import com.lilin.education.service.edu.feign.OssFileService;
+import com.lilin.education.service.edu.mapper.CourseMapper;
 import com.lilin.education.service.edu.mapper.TeacherMapper;
 import com.lilin.education.service.edu.service.TeacherService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -14,6 +16,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -29,6 +32,8 @@ import java.util.Map;
 public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements TeacherService {
     @Autowired
     OssFileService ossFileService;
+    @Autowired
+    CourseMapper courseMapper;
     @Override
     public IPage<Teacher> selectPage(Page<Teacher> pagePapram, TeacherQueryVo teacherQueryVo) {
         //显示分页查询列表
@@ -88,6 +93,19 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
             }
         }
         return false;
+    }
+
+    @Override
+    public Map<String, Object> selectTeacherInfoById(String id) {
+
+        Teacher teacher=baseMapper.selectById(id);
+        QueryWrapper<Course> courseQueryWrapper=new QueryWrapper<>();
+        courseQueryWrapper.eq("teacher_id",id);
+        List<Course> courseList= courseMapper.selectList(courseQueryWrapper);
+        Map<String,Object> map=new HashMap<>();
+        map.put("teacher",teacher);
+        map.put("courseList",courseList);
+        return map;
     }
 
 
