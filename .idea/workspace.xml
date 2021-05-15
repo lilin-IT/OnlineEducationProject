@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe2b66fc-4363-4b29-92b7-1f91342b78e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/common/service-base/src/main/java/com/lilin/education/service/base/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/common/service-base/src/main/java/com/lilin/education/service/base/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/ChapterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/ChapterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/CourseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/CourseDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/ChapterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/ChapterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseCollectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseCollectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/SubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/SubjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/VideoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/xml/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/ChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/ChapterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/ChapterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-parent/service/service-oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/education-parent/service/service-oss/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/onLineEducation_admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/onLineEducation_admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/onLineEducation_admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/onLineEducation_admin/src/router/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/education-parent/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/common/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/common/service-base/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/service-edu/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/common/common_util/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/service-oss/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/common/common-util/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/alibaba-easyexcel/target/" />
+    <ignored path="$PROJECT_DIR$/alibaba-easyexcel/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/service-vod/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/service-vodd/target/" />
+    <ignored path="$PROJECT_DIR$/education-parent/service/service-voded/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/TeacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/ServiceEduApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-oss/src/main/java/com/lilin/education/service/oss/ServiceOssApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/TeacherService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/TeacherServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/ServiceVodApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/api/ApiTeacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1775">
+              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/ChapterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/education-parent/common/service-base/src/main/java/com/lilin/education/service/base/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/CourseDescription.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-oss/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/CourseQueryVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/CourseVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/VideoMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/TeacherMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/SubjectMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseCollectMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/ChapterMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/mapper/xml/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/CoursePublishVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/videoVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/ChapterVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/ChapterService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/ChapterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/vo/VideoVo.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/education-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/education-parent/common/pom.xml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/util/AliyunVodSDKUtils.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/ServiceVodApplication.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/util/VodProperties.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vod/service-vod.iml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-vodd/pom.xml" />
+        <option value="$PROJECT_DIR$/education-parent/service/pom.xml" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-voded/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/VideoController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/feign/VodMediaService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/feign/fallback/VodMediaServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/ChapterController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/CourseController.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/TeacherServiceImpl.java" />
+        <option value="$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/api/ApiTeacherController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenRepository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-vod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/OnlineEducationProject.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="220" />
+    <option name="width" value="1540" />
+    <option name="height" value="705" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-oss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="oss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="vod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="vod" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineEducationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineEducationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="education-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-voded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lilin" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="vod" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowMaven.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/education-parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\alibaba-easyexcel\src\test\java" />
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\education-parent\service\service-voded\src\main\resources" />
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\education-parent\service\service-voded\src\main\java" />
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\education-parent\service\service-vod\src\main\resources" />
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\education-parent\service\service-vod\src\main\java" />
+      <recent name="D:\ITLinlinCode\OnlineEducationProject\education-parent\service\service-vodd\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn idea:idea" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceOssApplication-8120">
+    <configuration name="com.lilin.education.service.edu.controller in service-edu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lilin.education.service.edu.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lilin.education.service.edu.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EducationParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="education-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lilin.education.parent.EducationParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceEduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lilin.education.service.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lilin.education.service.edu.ServiceEduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssApplication -8121" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lilin.education.service.oss.ServiceOssApplication" />
+      <option name="VM_PARAMETERS" value="-DServer.port=8121" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssApplication-8120" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lilin.education.service.oss.ServiceOssApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-voded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lilin.education.service.vod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lilin.education.service.vod.ServiceVodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.lilin.education.service.edu.controller in service-edu" />
+      <item itemvalue="Spring Boot.EducationParentApplication" />
+      <item itemvalue="Spring Boot.ServiceOssApplication-8120" />
+      <item itemvalue="Spring Boot.ServiceOssApplication -8121" />
+      <item itemvalue="Spring Boot.ServiceVodApplication" />
+      <item itemvalue="Spring Boot.ServiceEduApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceEduApplication" />
+        <item itemvalue="Spring Boot.ServiceVodApplication" />
+        <item itemvalue="JUnit.com.lilin.education.service.edu.controller in service-edu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe2b66fc-4363-4b29-92b7-1f91342b78e6" name="Default Changelist" comment="" />
+      <created>1608966867716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608966867716</updated>
+      <workItem from="1608966868894" duration="14342000" />
+      <workItem from="1609084665234" duration="384000" />
+      <workItem from="1609159278900" duration="5516000" />
+      <workItem from="1609508515961" duration="1019000" />
+      <workItem from="1609653833781" duration="14638000" />
+      <workItem from="1609854876023" duration="2215000" />
+      <workItem from="1609942240798" duration="651000" />
+      <workItem from="1610171181986" duration="891000" />
+      <workItem from="1610174769222" duration="2854000" />
+      <workItem from="1610257730923" duration="1227000" />
+      <workItem from="1610271559714" duration="643000" />
+      <workItem from="1610367214814" duration="598000" />
+      <workItem from="1610422164537" duration="1094000" />
+      <workItem from="1610437040348" duration="4441000" />
+      <workItem from="1610511424433" duration="8345000" />
+      <workItem from="1610635841013" duration="951000" />
+      <workItem from="1610780802185" duration="2037000" />
+      <workItem from="1610808054555" duration="1197000" />
+      <workItem from="1610857880811" duration="7578000" />
+      <workItem from="1610982299281" duration="2284000" />
+      <workItem from="1611064820693" duration="2341000" />
+      <workItem from="1611152959789" duration="2396000" />
+      <workItem from="1611235156201" duration="3847000" />
+      <workItem from="1611382114885" duration="13224000" />
+      <workItem from="1611408965365" duration="596000" />
+      <workItem from="1611470253010" duration="5754000" />
+      <workItem from="1611577599857" duration="647000" />
+      <workItem from="1611587127584" duration="1788000" />
+      <workItem from="1611588954998" duration="588000" />
+      <workItem from="1611981336981" duration="195000" />
+      <workItem from="1611981568862" duration="683000" />
+      <workItem from="1611982807037" duration="8289000" />
+      <workItem from="1611993955349" duration="165000" />
+      <workItem from="1611994147459" duration="757000" />
+      <workItem from="1612074717878" duration="3755000" />
+      <workItem from="1612084014578" duration="7970000" />
+      <workItem from="1612280192800" duration="1652000" />
+      <workItem from="1612281947397" duration="485000" />
+      <workItem from="1612508814416" duration="185000" />
+      <workItem from="1612853344778" duration="2237000" />
+      <workItem from="1612867112396" duration="3330000" />
+      <workItem from="1612870556070" duration="445000" />
+      <workItem from="1612871117434" duration="1481000" />
+      <workItem from="1612880040196" duration="1809000" />
+      <workItem from="1612935044062" duration="13544000" />
+      <workItem from="1613184361601" duration="853000" />
+      <workItem from="1613187228210" duration="1549000" />
+      <workItem from="1613188966810" duration="193000" />
+      <workItem from="1613189190183" duration="2271000" />
+      <workItem from="1613195820026" duration="3771000" />
+      <workItem from="1613201034104" duration="1521000" />
+      <workItem from="1613273432195" duration="3650000" />
+      <workItem from="1613446391444" duration="10127000" />
+      <workItem from="1613460971955" duration="665000" />
+      <workItem from="1613536524678" duration="906000" />
+      <workItem from="1613537461059" duration="6442000" />
+      <workItem from="1614398052647" duration="7636000" />
+      <workItem from="1614491231733" duration="14791000" />
+      <workItem from="1614521323896" duration="2421000" />
+      <workItem from="1614585380831" duration="308000" />
+      <workItem from="1614606774519" duration="5804000" />
+      <workItem from="1614676797142" duration="649000" />
+      <workItem from="1614689926477" duration="5252000" />
+      <workItem from="1614782253351" duration="3634000" />
+      <workItem from="1614869042448" duration="4538000" />
+      <workItem from="1615014287434" duration="268000" />
+      <workItem from="1615132294480" duration="3436000" />
+      <workItem from="1615218311430" duration="1995000" />
+      <workItem from="1615391568079" duration="2501000" />
+      <workItem from="1615474904549" duration="3832000" />
+      <workItem from="1615561381404" duration="658000" />
+      <workItem from="1615732377809" duration="3329000" />
+      <workItem from="1615902734878" duration="1841000" />
+      <workItem from="1615987850237" duration="3607000" />
+      <workItem from="1616219632078" duration="13289000" />
+      <workItem from="1616253144657" duration="3386000" />
+      <workItem from="1616305778264" duration="4830000" />
+      <workItem from="1616424229773" duration="607000" />
+      <workItem from="1616593494288" duration="631000" />
+      <workItem from="1616680688798" duration="599000" />
+      <workItem from="1616856335107" duration="852000" />
+      <workItem from="1616910518842" duration="5479000" />
+      <workItem from="1616919742419" duration="2615000" />
+      <workItem from="1616922391441" duration="680000" />
+      <workItem from="1616923104552" duration="4253000" />
+      <workItem from="1617190512871" duration="2497000" />
+      <workItem from="1617205406093" duration="1266000" />
+      <workItem from="1617206761193" duration="389000" />
+      <workItem from="1617207204279" duration="328000" />
+      <workItem from="1617207561877" duration="54000" />
+      <workItem from="1617352475190" duration="594000" />
+      <workItem from="1617353109422" duration="332000" />
+      <workItem from="1617353470337" duration="4516000" />
+      <workItem from="1617358725841" duration="3694000" />
+      <workItem from="1617508252567" duration="3627000" />
+      <workItem from="1617524587140" duration="3591000" />
+      <workItem from="1617528216175" duration="4276000" />
+      <workItem from="1617610378323" duration="639000" />
+      <workItem from="1617883996381" duration="599000" />
+      <workItem from="1618114471938" duration="6893000" />
+      <workItem from="1618127581095" duration="5789000" />
+      <workItem from="1618925229302" duration="1593000" />
+      <workItem from="1619102085934" duration="599000" />
+      <workItem from="1619244506863" duration="10526000" />
+      <workItem from="1619367068825" duration="894000" />
+      <workItem from="1619446530761" duration="1791000" />
+      <workItem from="1619536577843" duration="600000" />
+      <workItem from="1620542777083" duration="3487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 10m 43s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 12m 04s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 13m 31s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite08 - 2021.02.13 at 15h 19m 36s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite08" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 22m 02s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 32m 36s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite08 - 2021.02.13 at 15h 33m 37s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite08" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 36m 09s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_simpleWrite07 - 2021.02.13 at 15h 49m 09s.xml">
+      <configuration name="ExcelWriteTest.simpleWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_lilin_education_service_edu_controller_in_service-edu - 2021.04.27 at 00h 38m 56s.xml">
+      <configuration name="com.lilin.education.service.edu.controller in service-edu" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="345311000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31432545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962447" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32962447" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32962447" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32962447" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32962447" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="905" y="68" width="492" height="719" id="Maven" order="3" type="WINDOWED" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/SubjectController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/VideoService.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-oss/service-oss.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/common/common-util/src/main/java/com/lilin/education/common/base/util/ExceptionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/util/VodProperties.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/util/AliyunVodSDKUtils.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/service/VideoService.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/resources/logback-spring.xml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/service/impl/VideoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/entity/Chapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/service/VideoService.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/service-vod.iml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/src/main/java/com/lilin/education/service/vod/ServiceVodApplication.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/service-vodd.iml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vodd/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/service-voded.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/service/impl/VideoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/util/AliyunVodSDKUtils.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/util/VodProperties.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-vod/src/main/java/com/lilin/education/service/vod/ServiceVodApplication.java" />
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/util/VodProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/util/AliyunVodSDKUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/feign/OssFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-oss/src/main/java/com/lilin/education/service/oss/controller/admin/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../尚硅谷-全栈在线教育项目-谷粒学院【Vue.js+Spring Cloud Alibaba】/day12-课程视频上传/代码/guli_parent/service/service_vod/src/main/java/com/atguigu/guli/service/vod/controller/admin/MediaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../尚硅谷-全栈在线教育项目-谷粒学院【Vue.js+Spring Cloud Alibaba】/day13-Nuxt.js和讲师展示/代码/guli_parent/service/service_vod/src/main/java/com/atguigu/guli/service/vod/controller/admin/MediaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="65" selection-start-line="65" selection-end-line="65" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/feign/VodMediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/feign/fallback/VodMediaServiceFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/ChapterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/ServiceVodApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-voded/src/main/java/com/lilin/education/service/vod/controller/admin/MediaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/admin/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/ServiceEduApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-oss/src/main/java/com/lilin/education/service/oss/ServiceOssApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/service/impl/TeacherServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-parent/service/service-edu/src/main/java/com/lilin/education/service/edu/controller/api/ApiTeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service-vod</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/OnlineEducationProject.iml" filepath="$PROJECT_DIR$/.idea/OnlineEducationProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-easyexcel/alibaba-easyexcel.iml" filepath="$PROJECT_DIR$/alibaba-easyexcel/alibaba-easyexcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/common/common.iml" filepath="$PROJECT_DIR$/education-parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/education-parent/common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/education-parent.iml" filepath="$PROJECT_DIR$/education-parent/education-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/service/service.iml" filepath="$PROJECT_DIR$/education-parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/common/service-base/service-base.iml" filepath="$PROJECT_DIR$/education-parent/common/service-base/service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/service/service-edu/service-edu.iml" filepath="$PROJECT_DIR$/education-parent/service/service-edu/service-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/service/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/education-parent/service/service-oss/service-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/service/service-vodd/service-vodd.iml" filepath="$PROJECT_DIR$/education-parent/service/service-vodd/service-vodd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-parent/service/service-voded/service-voded.iml" filepath="$PROJECT_DIR$/education-parent/service/service-voded/service-voded.iml" />
+    </modules>
+  </component>
+</project>
